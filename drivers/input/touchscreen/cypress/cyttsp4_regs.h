@@ -33,7 +33,7 @@
 #ifndef _CYTTSP4_REGS_H
 #define _CYTTSP4_REGS_H
 
-#define CY_FW_FILE_NAME			"cyttsp4/cyttsp4_fw.bin"
+#define CY_FW_FILE_NAME			"cyttsp4_fw.bin"
 
 #define CY_DEFAULT_ADAP_MAX_XFER	512
 #define CY_ADAP_MIN_XFER		140
@@ -573,7 +573,6 @@ struct cyttsp4_sysinfo {
 	u8 *btn_rec_data;		/* button diff count data */
 	u8 *xy_mode;			/* operational mode and status regs */
 	u8 *xy_data;			/* operational touch regs */
-	bool btn_enabled;
 };
 
 #endif /* _CYTTSP4_REGS_H */

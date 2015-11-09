@@ -91,6 +91,9 @@ extra_certificates
 signing_key.priv
 signing_key.x509
 x509.genkey
+<<<<<<< b04057196554f80a36acdb6d8b5ef91db83c1050
 
 # Generated source files
 smd_rpc_sym.c
+=======
+>>>>>>> Xolo Black : Opensource kernel code
