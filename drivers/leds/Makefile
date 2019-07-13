@@ -59,6 +59,8 @@ obj-$(CONFIG_LEDS_BLINKM)		+= leds-blinkm.o
 obj-$(CONFIG_LEDS_MSM_GPIO_FLASH)	+= leds-msm-gpio-flash.o
 obj-$(CONFIG_LEDS_MSM_GPIO_FLASH_CKT)	+= leds-msm-gpio-flash-ckt.o
 obj-$(CONFIG_LEDS_AW2013)		+= leds-aw2013.o
+obj-$(CONFIG_LEDS_aw2013rgb)		+= aw2013_rgb.o
+obj-$(CONFIG_LEDS_KTD20XX) 		+= ktd20xx.o
 
 # LED SPI Drivers
 obj-$(CONFIG_LEDS_DAC124S085)		+= leds-dac124s085.o
